@@ -1,0 +1,639 @@
+/* Body Section CSS */
+
+body{
+    margin: 3.5rem;
+    padding: 0px 0px;
+    background-color: #FFE2BA;
+}
+
+/* Main Section CSS */
+
+.mainSection{
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    display: flex;
+    /* width: 100vw; */
+    /* justify-content: space-evenly; */
+}
+
+/* Navigation CSS */
+
+.navigationBar{
+    height: 85vh;
+    width: 10vh;
+    text-align: center;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar>a{
+    margin: 8px;
+    height: 40px;
+    margin: 15px;
+}
+
+.bi{
+    position: relative;
+    left: 13px;
+    top: 11px;
+}
+
+a>svg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home:hover,#contactus:hover,#favourite:hover,#wallet:hover,#menu:hover,#settings:hover{
+    background-color: #FB9300;
+    border-radius: 40px 40px;
+    box-shadow: 0px 3px 7px rgba(255, 166, 0, 0.959);
+    transform: scale(1.2);
+    color: #FFFFFF;
+    transition-duration: 0.3s;
+}
+
+/* Menu CSS */
+
+.centerSection{
+    background-color: #f2eff5;
+    width: 125vh;
+}
+
+/* #centerSection1{ */
+    /* background-color: aqua; */
+/* } */
+
+#setMargin{
+    margin: 50px;
+}
+
+#centerSection1{
+    display: flex;
+    flex-direction: column;
+}
+
+#menuSection1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.todayMenu{
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin: 0;
+    align-items: flex-start;
+}
+
+.todayMenu p{
+    margin: 0px;
+}
+
+.todayMenu img{
+    margin-left: 5px;
+}
+
+#searchBar{
+    border-radius: 30px;
+    height: 30px;
+    width: 300px;
+    outline: none;
+    border: 0;
+
+}
+
+input{
+    padding-left: 20px;
+    text-align: center;
+}
+
+#searchBar::placeholder{
+    text-align: center;
+}
+
+#menuSection2{
+    background-color: #FFFFFF;
+    background-image: url('./pictures/backgroud.jpeg');
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    border-radius: 20px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+em{
+    font-weight: bold;
+    color: #FB9300;
+}
+
+.hello{
+    margin: 40px 33px 10px 300px;
+    font-family: 'Roboto', sans-serif;
+    font: 200px;
+}
+
+.offers{
+    margin: 15px 33px 30px 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#learnMore{
+    color: #FFFFFF;
+    font-size: 15px;
+    background-color: #FB9300;
+    padding: 15px 30px 15px 30px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-left: 300px;
+}
+
+#learnMore:hover{
+    box-shadow: 0px 1px 10px rgba(255, 166, 0, 0.342);
+}
+
+#menuSection3{
+    display: flex;
+    justify-content: space-between;
+}
+
+#menuSection3>p{
+    font-size: 1.6rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.arrow1{
+    width: 13px;
+    height: 13px;
+    padding: 3px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #FB9300;
+    margin-left: 8px;
+}
+
+.view{
+    display: flex;
+    align-items: center;
+}
+
+.view>p{
+    color: #FB9300;
+    font-size: 17px;
+}
+
+
+#menuSection4{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    /* text-align: center; */
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+#pizza{
+    /* background-color: #FB9300; */
+    margin: 20px 60px 20px 60px;
+    padding: 10px 20px 15px 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+#burger{
+    /* background-color: #FB9300; */
+    margin: 20px 60px 20px 60px;
+    padding: 10px 20px 15px 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+#drink{
+    /* background-color: #FB9300; */
+    margin: 20px 60px 20px 60px;
+    padding: 10px 20px 15px 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    
+}
+
+.image2{
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+    border-radius: 100px;
+    background-color: #FFFFFF;
+    z-index: 1000;
+}
+
+.image1{
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: #FB9300;
+    background-color: #FFFFFF;
+    z-index: 1000;
+}
+
+#drink:hover ,#pizza:hover, #burger:hover{
+    background-color: #FB9300;
+    box-shadow: 0px 1px 15px rgba(255, 166, 0, 0.658);
+    color: #FFFFFF;
+    transform: scale(1.1);
+}
+
+.image2:hover ,  .image1:hover{
+    background-color: #FFFFFF;
+}
+
+.name{
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+/* Bottom Section of Center */
+
+.menuSection5{
+    display: flex;
+    justify-content: center;
+}
+
+.pizzaContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    margin: 10px;
+    width: 250px;
+    border-radius: 25px;
+}
+
+.pizzaImageContainer{
+    width: 250px;
+    text-align: center;
+}
+
+.centerPizzaImage{
+    width: 100px;
+    height: 100px;
+    border-radius: 55px;
+    margin: 10px;
+}
+
+
+.starStyling{
+    display: flex;
+    margin: 5px;
+}
+
+.star{
+    margin: 3px;
+    color: #FB9300;
+}
+
+.subPizzaContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rate{
+    margin: 0px 10px 20px 10px;
+}
+
+.addIcon{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.add{
+    color: white;
+    background-color: #FB9300;
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+}
+
+.add:hover{
+    box-shadow: 0 0px 4px #fb92007a;
+}
+
+/* Right Section CSS */
+
+.rightSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rightTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.bell{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.notificationIcon{
+    background-color: #f2eff5;
+    border-radius: 50px;
+    margin: 20px ;
+}
+
+.notificationIcon:hover{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.322);
+    transform: scale(1.1);
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 20px;
+}
+
+#profileDetails{
+    display: flex;
+    flex-direction: column;
+    margin: 3PX;
+}
+
+#profilePicture{
+    height: 40px;
+    width: 40px;
+    background-color: aquamarine;
+    padding: 5px;
+    border-radius: 100px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+#profileView{
+    width: 15px;
+    height: 15px;
+    border-radius: 100px;
+    background-color: #ffffff;
+    display: flex;
+    text-align: center;
+}
+
+#profileName{
+    margin: 3px;
+}
+
+#user{
+    margin: 3px;
+    color: #8f8c92;
+}
+
+.downArrowIcon{
+    margin: 20px 20px 20px 5px;
+}
+
+.down:hover{
+    border-radius: 20px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.842);
+}
+
+/* card Details */
+
+#card{
+    margin: 50px;
+}
+
+.card1{
+    width: 300px;
+    height: 200px;   
+    background-color: #ff990a;
+    transform: rotateZ(7deg); 
+    border-radius: 20px;
+    transition-duration: 1s;
+}
+
+.card1:hover{
+    box-shadow: 0 8px 32px 0 #f2eff5;
+}
+
+
+.card2{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 200px;
+    background: rgba(250, 177, 58, 0.473);
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.473);
+}
+
+.userDetails{
+    margin:0px 20px 0px 20px
+}
+
+.debitCard{
+    color:#FFFFFF;
+    display: inline;
+}
+
+.visa{
+    color: #FFFFFF;
+    display: inline-block;
+    margin-left: 150px;
+}
+
+.chipImage{
+    width: 30px;
+    height: 30px;
+    color: #FFFFFF;
+
+}
+
+.useramount{
+    font-size: 1.6rem;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+.chipDetails2 img{
+    filter: invert(1) contrast(200%) brightness(300%) drop-shadow(8px 8px 10px #ffffff);
+}
+
+.chip{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.userName{
+    margin: 0px;
+}
+
+.chipNumber{
+    margin: 10px 0px 0px 0px;
+}
+
+.chipDetails1{
+    color: #FFFFFF;
+
+}
+
+.chipDetails2{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-end;
+color: #FFFFFF;
+}
+
+
+/* Menu Detalis */
+
+.orderMenu{
+    margin: 0px 20px 0px 25px;
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.orderDetails{
+    font-size: 1.6rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.menuDetails{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.pizzaImage{
+    grid-area: image;
+}
+.pizzaContent{
+    grid-area: content;
+}
+.rate1{
+    grid-area: rate;
+}
+
+.pizzaImage{
+    height: 50px;
+    width: 50px;
+    background-color: #FFFFFF;
+}
+
+.pizzaOrderDetails{
+    display: grid;
+    grid: 
+    'image content content content content rate '
+    ;
+    margin: 10px;
+}
+
+.pizzaContent{
+    display: flex;
+    display: grid;
+    justify-content: flex-start;
+}
+
+.pizzaImageClass{
+    background-color: rgb(87, 243, 170);
+    border-radius: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pizzaImage{
+    border-radius: 25px;
+}
+
+
+span{
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FB9300;
+}
+
+.pizzaName{
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+.pizzaCount{
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.pizzaOrderDetails:hover{
+    box-shadow: 0px 0px 30px #fcaa38a4;
+    background-color: #ffffff;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+    transform: translate(55px, 3px);
+}
+
+.checkout{
+    background-color: #FB9300;
+    margin: 50px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+.checkout:hover{
+    background-color: #FB9300;
+    box-shadow: 0px 1px 10px rgba(255, 166, 0, 0.658);
+}
+
+.arrow{
+    width: 13px;
+    height: 13px;
+    padding: 3px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #FB9300;
+    margin-left: 8px;
+    margin-right: 30px;
+}
+
+.arrow:hover,.arrow1:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 1px 10px rgba(255, 166, 0, 0.658);
+}
+
+
